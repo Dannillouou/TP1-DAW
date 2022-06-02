@@ -1,0 +1,39 @@
+.carousel-cursos {
+  right: 0;
+  margin-right: 10%;
+}
+
+.carousel-cursos h2 {
+  float: right;
+  padding: 2%;
+  color: white;
+}
+
+.carousel-cursos p {
+  float: right;
+  clear: both;
+  text-align: start;
+  color: white;
+  border-radius: 15px;
+  background-color: #2f608c;
+  padding: 1%;
+  /* font-family: 'Roboto'; */
+  font-size: 1em;
+}
+
+#desAppsFundo {
+  background-image: url("imgs/analise.jpg");
+}
+
+#desAppsCor {
+  background-color: #81A0E0;
+}
+
+#carousel-cursos-indicators > li {
+  border-radius: 50%;
+}
+
+#autCaption h2 {
+  background-color: #81241F;
+}
+/*# sourceMappingURL=style.css.map */
