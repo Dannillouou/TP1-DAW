@@ -1,6 +1,5 @@
 //classes
   .carousel-cursos {
-  right: 0;
   margin-right: 10%;
 }
 
@@ -28,15 +27,34 @@
   background-image: url('imgs/analise.jpg'); 
 }
 
-#desAppsCor{
-  background-color:#81A0E0;
-}
-
 #carousel-cursos-indicators > li{
   border-radius: 50%;
+}
+
+#desappsCaption h2{
+  background-color:#81A0E0;
 }
 
 #autCaption h2{
   background-color: #81241F;
 }
 
+#patCaption h2{
+  background-color: #1C61BF;
+}
+
+#infoCaption h2{
+  background-color: #FFBC19;
+}
+
+#eletCaption h2{
+  background-color: #E8670C;
+}
+
+#quimCaption h2{
+  background-color:#5A4156;
+}
+
+#biotecCaption h2{
+  background-color: #34B88A;
+}
