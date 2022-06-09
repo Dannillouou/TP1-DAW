@@ -1,12 +1,18 @@
-//classes
-  .carousel-cursos {
-  margin-right: 10%;
+*{
+  font-size: 18px;
+}
+
+//classes<-------------------------------------------------------------------->
+.carousel-cursos {
+  margin-right: -5%;
 }
 
 .carousel-cursos h2 {
   float: right;
   padding: 2%;
   color: white;
+  font-size: 1.4em;
+  font-weight: 400;
 }
 
 .carousel-cursos p {
@@ -17,11 +23,15 @@
   border-radius: 15px;
   background-color: rgb(47, 96, 140);
   padding: 1%;
-  /* font-family: 'Roboto'; */
   font-size: 1em;
+  box-sizing: inherit;
 }
 
-///Elementos únicos
+.carousel-control-meu{
+  width: 5%;
+}
+
+///Elementos únicos<-------------------------------------------------------------------->
 
 #desAppsFundo{
   background-image: url('imgs/analise.jpg'); 
@@ -57,4 +67,12 @@
 
 #biotecCaption h2{
   background-color: #34B88A;
+}
+
+//Media queries<------------------------------------------------------------------------>
+@media(max-width: 768px){
+  .carousel-cursos h2{
+    float: none;
+    text-align: center;
+  }
 }
