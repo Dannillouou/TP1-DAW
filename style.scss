@@ -7,36 +7,7 @@
   margin-right: -5%;
 }
 
-.carousel-cursos h2 {
-  float: right;
-  padding: 2%;
-  color: white;
-  font-size: 1.4em;
-  font-weight: 400;
-}
-
-.carousel-cursos p {
-  float: right;
-  clear: both;
-  text-align: start;
-  color: white;
-  border-radius: 15px;
-  background-color: rgb(47, 96, 140);
-  padding: 1%;
-  font-size: 1em;
-  box-sizing: inherit;
-}
-
-.carousel-control-meu{
-  width: 5%;
-}
-
 ///Elementos únicos<-------------------------------------------------------------------->
-
-#desAppsFundo{
-  background-image: url('imgs/analise.jpg'); 
-}
-
 #carousel-cursos-indicators > li{
   border-radius: 50%;
 }
@@ -70,9 +41,47 @@
 }
 
 //Media queries<------------------------------------------------------------------------>
-@media(max-width: 768px){
+@media screen and (max-width: 768px){
   .carousel-cursos h2{
     float: none;
     text-align: center;
+    padding: 2%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+  .carousel-cursos p{
+    display: none;
+  }
+
+  .link-cursos a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .carousel-cursos h2 {
+    float: right;
+    padding: 2%;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+  
+  .carousel-cursos p {
+    float: right;
+    clear: both;
+    text-align: start;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(47, 96, 140);
+    padding: 1%;
+    font-size: 1em;
+    box-sizing: inherit;
+  }
+
+  .link-cursos{
+    text-decoration: none;
   }
 }
